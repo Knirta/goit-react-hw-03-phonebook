@@ -1,0 +1,21 @@
+@import "styles/shared.scss";
+
+.Form {
+  padding: 20px;
+  border: 1px solid $dark-gray;
+  border-radius: 5px;
+}
+
+.Form__label {
+  margin-bottom: 7px;
+  font-size: 22px;
+}
+
+.Form__input {
+  @extend %input;
+}
+
+.Form__button {
+  @extend %button;
+  margin: 15px 0;
+}

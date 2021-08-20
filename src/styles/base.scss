@@ -1,0 +1,17 @@
+@import "./shared.scss";
+
+body {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: $dark-gray;
+}
+
+h1,
+h2 {
+  margin: 0;
+  color: $dark-navy;
+}
+
+p {
+  margin: 0;
+}

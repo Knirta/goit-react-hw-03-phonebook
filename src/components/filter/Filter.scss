@@ -1,0 +1,10 @@
+@import "styles/shared";
+
+.Filter__title {
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+
+.Filter__input {
+  @extend %input;
+}
